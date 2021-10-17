@@ -1,0 +1,45 @@
+.header-top-title{
+    /* background: lightblue; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("resources/img/software/single-page-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  color: #fff;
+  height: 300px;   
+  color:#fff;   
+}
+.title{
+    width: 60%; 
+    text-align: left;
+    padding-top: 30px;
+    
+}
+.title h2{
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* ========================= */
+#web-design-dev,#website-services{
+    padding:60px 0; 
+}
+/* ============== */
+.single-web{
+    margin-bottom: 20px;
+}
+.single-web i{
+    font-size: 30px; 
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center; 
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: #00AEDE;
+}
+.single-web p{
+    font-size: 14px;
+}

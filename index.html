@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Firm</title>
+    <link rel="shortcut icon" href="resources/img/favicon-logo2.png"   type="image/x-icon">
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+   <header id="header"> 
+       <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light my-navbar" id="myNavbar"> 
+        <div class="container">
+          <a class="navbar-brand logo-text" href="#">Soft IT Point</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon text-light"></span>  -->
+            <i class="fas fa-bars navbar-toggler-icon"></i> 
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#services-section">Services</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Software</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+                </li>
+            </ul> 
+            <div class="order-now ms-3">
+                <a href="order.html" class="btn my-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- header slider area -->
+      <div class="container"> 
+      <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- single carousel item -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-8">  
+                            <div class="top-title text-light">
+                                <h3 class="sort-title">GROWTH YOUR BUSINESS </h3>
+                                <h1 class="header-title">Our Softwares </h1>
+                                <p class="header-description">We Develop Software According To Your Business Needs.</p>
+                                <a href="software.html" class="btn my-btn">Learn More</a>
+                            </div>  
+                        </div>
+                        <div class="col-md-4">
+                            <div class="slider-image">
+                                <img src="resources/img/animated-screen-1.svg" class="img-fluid" alt="slider image">
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+                <!-- single carousel item -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-8">  
+                            <div class="top-title text-light">
+                                <h3 class="sort-title">GROWTH YOUR BUSINESS </h3>
+                                <h1 class="header-title">CC Camera Services</h1>
+                                <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <a href="camera.html" class="btn my-btn">Learn More</a>
+                            </div>  
+                        </div>
+                        <div class="col-md-4">
+                            <div class="slider-image">
+                                <img src="resources/img/inventory.png" class="img-fluid" alt="slider image two">
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+                    <!-- single carousel item -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-8">  
+                            <div class="top-title text-light">
+                                <h3 class="sort-title">GROWTH YOUR BUSINESS </h3>
+                                <h1 class="header-title">Web Design And Development</h1>
+                                <p class="header-description">We Design & Develop Website That Meets Your Business Needs.</p>
+                                <a href="web-design-dev.html" class="btn my-btn">Learn More</a>
+                            </div>  
+                        </div>
+                        <div class="col-md-4">
+                            <div class="slider-image">
+                                <img src="resources/img/software-company.png" class="img-fluid" alt="slider image three">
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>  
+            </div> 
+        </div>
+    </div>
+   </header>
+   <!--======================= About section==================== -->
+   <section id="about-section"> 
+        <div class="container">
+            <div class="row"> 
+                <div class="col-md-6">
+                    <div class="about-img">
+                        <img src="resources/img/about-us.svg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h5 class="sort-title">ABOUT US </h5> 
+                        <h2 class="second-title">Soft IT Point </h2>
+                        <p>At Workspace Infotech, we have always put our client first. This idea permeates our culture to its core. It has driven us to create the innovative products and services we offer today. As a result, we enable our clients to put their people first-helping them build the people-centric environments they need to grow and meet their business goals. </p>
+                        <p>We believe software should work for people. Not the other way around. Customers choose us for our sophisticated people management technology delivered in the cloud. But we know that it's the results-how well we improve the personal work experience for you and your employees-that matter most.</p>
+                        <!-- <ul>
+                            <li><i class="fas fa-ad"></i> Learn new skills with our bite-sized video tutorials, then test your knowledge with a quick quiz.</li>
+                        </ul> --> 
+                        <a href="about-us.html" class="btn my-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <!--======================= About section==================== -->
+   <section id="software-service">  
+        <div class="container">
+            <div class="row"> 
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h5 class="sort-title">Software Service</h5><i class="fas fa-ad"></i>
+                        <h2 class="second-title">Enjoy Full-Service Digital Marketing Expertise </h2>
+                        <p>Soft IT Point is one of the best Software Company in Barishal Sadar, Barishal, Bangladesh. Dedicated & Innovative team member are highly motivated to help you for running your business smoothly by using our Software & Application. We are specialized in Software Service, Web application, Website development, Android Application, IOS Application, Graphics Design, SEO & Internet Marketing. Don't hesitate to meet our team. </p>
+                         <ul class="my-3">
+                             <div class="d-flex justify-content-arround align-items-center my-2">
+                                 <div class="icon me-3">
+                                    <i class="fas fa-fighter-jet"></i>
+                                 </div>
+                                
+                                <li>This is our official Best Software</li>
+                             </div> 
+                             <div class="d-flex justify-content-arround align-items-center my-2">
+                                 <div class="icon me-3">
+                                    <i class="fas fa-fighter-jet"></i>
+                                 </div>
+                                
+                                <li>This is our official Best Software</li>
+                             </div> 
+                             <div class="d-flex justify-content-arround align-items-center my-2">
+                                 <div class="icon me-3">
+                                    <i class="fas fa-fighter-jet"></i>
+                                 </div>
+                                
+                                <li>This is our official Best Software</li>
+                             </div> 
+                         </ul>
+                        <!-- <ul>
+                            <li><i class="fas fa-ad"></i> Learn new skills with our bite-sized video tutorials, then test your knowledge with a quick quiz.</li>
+                        </ul> -->
+                        <a href="software.html" target="_blank" class="btn my-btn">Learn More</a> 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-img-service">
+                        <img src="resources/img/inventory.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <!--======================= services section==================== -->
+   <section id="services-section">
+       <div class="container">
+        <div class="section-title text-center">
+            <h5 class="sort-title">FEATURES</h5>
+            <h2 class="second-title">Let’s Check Our Featured Services  </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-service text-center">
+                    <div class="service-icon">
+                        <img src="resources/img/services/system-update.png" class="img-fluid" alt="">
+                    </div> 
+                    <h4 class="service-title">Software Managment</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas inventore, sequi esse autem in adipisci atque saepe eum minima.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-service text-center">
+                    <div class="service-icon">
+                        <img src="resources/img/services/web.png" class="img-fluid" alt="">
+                    </div> 
+                    <h4 class="service-title">Website Managment</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas inventore, sequi esse autem in adipisci atque saepe eum minima.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-service text-center">
+                    <div class="service-icon">
+                        <img src="resources/img/services/user-interface.png" class="img-fluid" alt="">
+                    </div> 
+                    <h4 class="service-title">Apps Managment</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas inventore, sequi esse autem in adipisci atque saepe eum minima.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-service text-center">
+                    <div class="service-icon">
+                        <img src="resources/img/services/software.png" class="img-fluid" alt="">
+                    </div> 
+                    <h4 class="service-title">Graphics Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas inventore, sequi esse autem in adipisci atque saepe eum minima.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-service text-center">
+                    <div class="service-icon">
+                        <img src="resources/img/services/digital-campaign.png" class="img-fluid" alt="">
+                    </div> 
+                    <h4 class="service-title">Digital Marketting</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas inventore, sequi esse autem in adipisci atque saepe eum minima.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-service text-center">
+                    <div class="service-icon">
+                        <img src="resources/img/services/web-development.png" class="img-fluid" alt="">
+                    </div> 
+                    <h4 class="service-title">Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas inventore, sequi esse autem in adipisci atque saepe eum minima.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="view-more text-center">
+                <a href="software.html" target="_blank" class="btn my-btn">Learn More</a> 
+            </div>
+        </div>
+       </div>
+   </section>
+   <!-- =========our ready software-section========= -->
+    <section id="our-software">
+        <div class="container">
+            <div class="section-title text-center">
+                <h5 class="sort-title">Our Ready Softwares</h5>
+                <h2 class="second-title">Let’s Check Our Ready Softwares </h2>
+                <p>We are always with our clients. We belive in long term relationship with our most valuable clients by providing our IT Service and Support. </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-ready-software text-center p-3 text-light">
+                        <i class="fab fa-uncharted"></i>
+                        <h5>Operation Management Software</h5>
+                        <p>Surgeon Need to store surgery data for their future reference. They need to store pre operation and post operation</p>
+                        <div class="view-more-software">
+                            <a href="#"> View Details </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-ready-software text-center p-3 text-light">
+                        <i class="fas fa-hospital"></i>
+                        <h5>Hospital Management Software </h5>
+                        <p>To access all the steps of a Hospital we are providing the world class Hospital Management System</p>
+                        <div class="view-more-software">
+                            <a href="#"> View Details </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-ready-software text-center p-3 text-light">
+                        <i class="fas fa-utensils"></i>
+                        <h5>Resturant Management Software</h5>
+                        <p>Restaurant Management Software with essential feature to manage activity related to Restaruant business. You can manage</p>
+                        <div class="view-more-software">
+                            <a href="#"> View Details </a>
+                        </div> 
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-ready-software text-center p-3 text-light">
+                        <i class="fas fa-prescription-bottle-alt"></i>
+                        <h5>Pharmacy Management Software</h5>
+                        <p>Pharmacy Need to maintain medicine inventory, Medicine expire date, Make invoice, daily sales, user wise sales, Monthly report.</p>
+                        <div class="view-more-software">
+                            <a href="#"> View Details </a>
+                        </div> 
+                    </div>
+                </div> 
+                <div class="view-more text-center">
+                    <a href="ready-soft.html" target="_blank" class="btn my-btn">Learn More</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- =============Contact section================ -->
+   <section id="contact-section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h5 class="sort-title">GET IN TOUCH </h5>
+            <h2 class="second-title">Ready to Get Started?</h2>
+            <p>Your email address will not be published. Required fields are marked * </p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-img">
+                    <img src="resources/img/contact.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="" class="contact-form">
+                    <div class="name-email d-flex justify-content-arround mb-3">
+                        <input type="text" class="form-control me-3" placeholder="Your Name">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <input type="phone" class="form-control mb-3" placeholder="Your Phone">
+                    <input type="phone" class="form-control mb-3" placeholder="Subject">
+                    <textarea class="form-control message" name="" placeholder="Write Your Message" ></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   </section>
+   <!-- =============footer-section============ -->
+   <footer id="footer-section">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-4 mb-5">
+                    <a href="#" class="logo mb-3">Soft It Point</a>
+                    <p>Our latest news, articles, and resources, we will sent to your inbox weekly.</p>
+                    <h6>A</h6>
+                </div>
+                <div class="col-md-2 mb-5">
+                    <h3>Services</h3>
+                    <div class="footer-link">
+                        <a href="#">Software Managment</a>
+                        <a href="#">Web Development</a>
+                        <a href="#">Graphics Design</a>
+                        <a href="#">Apps Managment</a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <h3 class="mb-3">Contact Us</h3>
+                    <p> <i class="fas fa-home me-2"></i> Address: Barisal sadar, Barisal</p>
+                    <h6> <i class="fas fa-mobile-alt me-2"></i> Phone: 0190813412312</h6>
+                    <p><i class="fas fa-envelope me-2"></i> Email: example@gamil.com</p>
+                    
+                </div>
+                <div class="col-md-3 ">
+                    <h3 class="mb-3">Subscribe</h3>
+                    <div class="subs-form">
+                        <input class="form-control mb-2" type="text" placeholder="enter email">
+                        <input class="btn btn-danger" type="submit" value="Subscribe">
+                    </div>
+                </div>
+           </div>
+        </div>
+   </footer>
+   <div class="copytight  text-center p-3 text-light">
+       <div class="container">
+           <p>Copyright &copy; 2021 All Right Reserved Soft It Point.</p>
+       </div>
+   </div> 
+
+
+<!-- link js files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+ 
+ 
+
+</script>
+</body>
+</html>

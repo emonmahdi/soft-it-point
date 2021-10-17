@@ -1,0 +1,62 @@
+/* .header-img {
+    background:url('resources/img/software/single-page-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    height: 280px;
+    position: relative; 
+    
+}  */
+.header-title-single{
+    background-color: #000;
+    height: 80px;
+    color:#fff
+}
+#software-details{
+    padding:60px 0;
+    overflow: hidden;
+}
+#software-details .software-img{
+    border:1px solid #ddd;
+    width: 100%; 
+    padding: 20px;
+}
+.features-soft {
+    border:1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.features-soft ul li, .features-soft ul i{ 
+     color:#777777;
+     text-align: left;
+    
+}
+/* social links */
+.social-links a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    border:1px solid #ddd;
+    color:#000;
+    margin-right: 12px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.social-links a:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+/* ============software-description============= */
+#software-description{
+    padding: 60px 0;
+}
+.description-soft{
+    border:1px solid #000;
+    padding: 15px;
+}

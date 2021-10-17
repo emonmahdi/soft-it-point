@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft IT Point</title>
+    <link rel="shortcut icon" href="resources/img/favicon-logo2.png"   type="image/x-icon">
+    <link rel="stylesheet" href="order.css">
+      <!-- FontAwesome link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="order-header">
+        <div class="container">
+            <div class="header-content text-center">
+                <div class="logo">
+                    <a href="index.html">
+                        Soft IT Point 
+                    </a>
+                </div>
+                <h1> <span>Soft IT Point </span> এ আপনাকে সাগতম</h1>
+                <h3> <i class="fas fa-shopping-cart"></i> অর্ডার ফরম টি পূরন করুন</h3>
+                <h5>যে কোন প্রয়োজনে কল করুন  ০১৭১৫২৭৯৪৯৮,০১৮৭৩০৭২২৫৩</h5>
+                <p>বি: দ্র: অর্ডার সাকসেস হওয়ার ৩ ঘন্টার মধ্যে আমাদের প্রতিনিধি আপনার সাথে যোগাযোগ করবেন দয়া করে অপেক্ষা করুন </p>
+            </div>
+        </div>
+    </header>
+    <!-- ===================Form=========== -->
+<section id="order-section" class="bg-secondary p-5">
+    <form action="" id="order-form" class="mx-auto w-100 bg-light p-4">
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <label for="">আপনার নাম</label>
+                <input class="form-control" type="text" placeholder="আপনার নাম লিখুন">
+            </div>
+            <div class="col-md-6">
+                <label for="">মোবাইল নম্বর</label>
+                <input class="form-control" type="text" placeholder="আপনার মোবাইল নম্বর লিখুন">
+            </div> 
+        </div> 
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <label for="">ই-মেইল</label>
+                <input class="form-control" type="email" placeholder="আপনার ই-মেইল লিখুন">
+            </div>
+            <div class="col-md-6">
+                <label for="">আপনার ব্যবসা প্রতিষ্ঠানের নাম</label>
+                <input class="form-control" type="text" placeholder="আপনার প্রতিষ্ঠানের নাম লিখুন">
+            </div>
+            
+        </div>
+        <div class="mb-4">
+            <div class="me-3 w-100">
+                <label for="">সম্পুর্ণ ঠিকানা লিখুন</label>
+                <input class="form-control" type="email" placeholder="আপনার সম্পুর্ণ ঠিকানা  লিখুন">
+            </div> 
+            
+        </div>
+        <div class="mb-4">
+            <div class="me-3 w-100">
+                <label for="">আপনার বর্তমান ঠিকানা লিখুন</label>
+                <input class="form-control" type="email" placeholder="আপনার বর্তমান ঠিকানা  লিখুন">
+            </div> 
+            
+        </div>
+        <div class="mb-4">
+            <label for="">পেমেন্ট মেথড সিলেক্ট করুন</label>
+            <select name="" id="" class="form-control" >
+                <option value="Bkash">Bkash</option>
+                <option value="Nagad">Nagad</option>
+                <option value="Rocket">Rocket</option>
+            </select> 
+        </div>
+        <div class="mb-4">
+            <div class="me-3 w-100">
+                <label for="">যে ওয়ালেট থেকে আপনি টাকা পাঠিয়েছেন সেই নম্বরটি লিখুন</label>
+                <input class="form-control" type="phone" placeholder="আপনার নম্বরটি লিখুন">
+            </div> 
+            
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <label for="">অ্যামাউন্ট</label>
+                <input class="form-control" type="number" placeholder="আপনার অ্যামাউন্ট লিখুন">
+            </div> 
+            <div class="col-md-6">
+                <label for="">ট্রান্সঅ্যাকশন কোডটি লিখুন</label>
+                <input class="form-control" type="number" placeholder="আপনার ট্রান্সঅ্যাকশন কোডটি লিখুন">
+            </div> 
+        </div>
+        <div class="mb-4">
+            <div class="me-3 w-100">
+                <label for="">আপনার মতামত লিখুন</label>
+                <textarea class="form-control message"  placeholder="আপনার মতামত লিখুন"></textarea>
+            </div>  
+        </div>
+        <div class="submit text-center">
+            <button type="submit"  class="btn btn-success ">Submit</button>
+        </div>
+    </form> 
+</section>
+<section class="bg-dark py-2">
+    <div class="copyright text-center ">
+        <p class="text-light">Developed By <span class="text-warning">SoftItPont</span></p>
+    </div>
+</section>
+
+
+
+    <!-- Bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

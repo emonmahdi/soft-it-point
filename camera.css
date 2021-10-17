@@ -1,0 +1,31 @@
+#camera-card{
+    padding: 60px 0; 
+}
+.card img{
+    border-bottom: 3px solid #FE4C1C;
+}
+.single-camera{
+box-shadow: 0 2px 14px #ddd;
+border-radius: 5px;
+margin-bottom: 30px;
+}
+.card-body h5{
+    font-size: 16px;
+}
+.card-body h5:hover{
+    color:#3749BB;
+    cursor: pointer;
+}
+.btn-buy-now{
+    text-decoration: none;
+    background: rgba(55, 75, 185, 0.1);
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    color:#007ACC;
+}
+.btn-buy-now:hover{
+    background: #3749BB;
+    color:#fff;
+}

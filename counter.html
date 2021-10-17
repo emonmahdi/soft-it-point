@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    
+    <div style="display: flex; ">
+        <div style="background-color: bisque; padding: 30px; width: 300px;">
+            <span class="counter">12500</span>
+        </div>
+        <div style="background-color: bisque; padding: 30px; width: 300px;">
+            <span class="counter">1245</span>
+        </div>
+        <div style="background-color: bisque; padding: 30px; width: 300px;">
+            <span class="counter">5456</span>
+        </div>
+        <div style="background-color: bisque; padding: 30px; width: 300px;">
+            <span class="counter">45451</span>
+        </div>
+    </div>
+    
+     
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+<script>
+    $('.counter').counterUp({
+        delay: 10,
+        time: 3000
+    });
+</script>
+</body>
+</html>

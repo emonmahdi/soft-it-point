@@ -1,0 +1,112 @@
+@media(max-width: 668px){ 
+    #header{
+        height: auto;
+    }
+    a.logo-text{
+        font-size: 30px;
+    }
+    .slider-image img{ 
+        display: inline-block;
+        width: 80%;
+        margin: 42px auto;
+    }
+    .sort-title{
+        font-size: 16px;
+    }
+    .header-title{
+        font-size: 37px;
+    }
+    .my-btn{ 
+        padding:10px 20px; 
+    }
+    .order-now{
+        margin-left: 0 !important;
+        padding-bottom: 20px !important;
+    }
+    /* ========== */
+    .about-img{
+        margin-bottom: 50px;
+    }
+    .about-img img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .second-title{
+        font-size: 28px;
+    }
+    .about-img-service{
+        margin-top: 50px;
+        width: 80%;
+    }
+    /* ============ */
+    .service-title {
+        font-size: 20px;
+    }
+    .single-service img{
+        height: 40px;
+        width: 40px;
+    }
+    .service-icon{ 
+        width: 60px;
+        height: 60px; 
+    }
+    .section-title{
+        width: 80%; 
+    }
+    /* =============== */
+    .single-ready-software{
+        height: auto;
+    }
+    /* =============== */
+    .contact-img{
+        margin-bottom: 40px;
+    }
+    .contact-img img{
+        width: 80%;
+    }
+    .logo{
+        font-size: 35px; 
+    }
+     
+}
+@media(max-width: 480px){
+    a.logo-text{
+        font-size: 20px;
+    }
+    .slider-image{
+        display: none;
+    }
+    .sort-title{
+        font-size: 14px;
+    }
+    .header-title{
+        font-size: 30px;
+    }
+    .my-btn{ 
+        padding:10px; 
+        font-size: 14px;
+    }
+    .second-title{
+        font-size: 20px;
+    }
+    
+    #footer-section .logo{
+        font-size: 30px;
+    }
+    #footer-section h3{
+        font-size: 20px;
+    }
+}
+@media(max-width: 320px){
+    #footer-section .logo{
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    #footer-section p{
+        font-size: 14px;
+    }
+    .copytight p{
+        font-size: 14px;
+    }
+}

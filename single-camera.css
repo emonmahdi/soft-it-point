@@ -1,0 +1,41 @@
+.single-camera-details h2{
+    font-size: 19px;
+    margin-bottom: 15px;
+}   
+.single-camera-details h5{
+    padding: 8px 20px ;
+    background-color: #ddd;
+    width: 150px;
+    text-align: center;
+    border-radius: 6px;
+
+}   
+.buy-now{
+    margin:20px 0;  
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    overflow: hidden;
+}
+.buy-now span{
+    border:1px solid #ddd; 
+    padding: 8px 20px;
+}
+.buy-now span:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.btn-buy-now{
+    text-decoration: none;
+    background: rgba(55, 75, 185, 0.1);
+    background: #3749BB;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    color:#fff;
+}
+.btn-buy-now:hover{
+    background: rgba(55, 75, 185, 0.1);
+    color:#3749BB;
+}
