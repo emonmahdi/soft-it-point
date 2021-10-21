@@ -13,8 +13,7 @@
 .title{
     width: 60%; 
     text-align: left;
-    padding-top: 30px;
-    
+    padding-top: 30px; 
 }
 .title h2{
     line-height: 50px;
@@ -27,7 +26,19 @@
 }
 /* ============== */
 .single-web{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    top: 0;
+    transition: .3s;
+}
+.single-web:hover{
+    top: -10px;
+    box-shadow: 0 4px 15px #ddd;
+}
+.single-web img{
+    height: 80px;
+    height: 80px;
+    margin:20px auto;
 }
 .single-web i{
     font-size: 30px; 

@@ -39,3 +39,40 @@
     background: rgba(55, 75, 185, 0.1);
     color:#3749BB;
 }
+.single-camera-details{
+    margin-top: 30px;
+}
+.details-product li{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.details-product li span{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.price{
+    color:#FE4C1C;
+    font-weight: 900!important;
+}
+.table-gray{
+    background-color: #ddd!important;
+    border:1px solid #fff;
+}
+.related-product{
+    padding:30px 0;
+}
+.single-related-camera{
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.single-related-camera h4{
+    margin: 10px 0;
+}
+.single-related-camera img{
+    width: 50%;
+    border-radius: 30px;
+}

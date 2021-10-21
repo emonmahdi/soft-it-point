@@ -65,7 +65,10 @@ ul li {
 .header-description {
   margin-bottom: 30px;
 }
-
+.title-slider{
+  color:#fe4c1c ;
+  font-weight: 900;
+}
 .my-btn::before {
   content: "";
   position: absolute;
