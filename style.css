@@ -95,7 +95,7 @@ header .my-navbar {
   top: 0;
   width: 100%;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 1000000;
   transition: 0.5s linear;
 }
@@ -137,6 +137,7 @@ header .my-navbar {
 /* ===================================== */
 #about-section {
   padding: 70px 0;
+  background-color: #ddd;
 }
 #about-section .my-btn:hover {
   background-color: #0b163f;
@@ -145,29 +146,13 @@ header .my-navbar {
 /* ===================================== */
 /* ==========software-service============== */
 /* ===================================== */
-#software-service {
-  padding: 70px 0;
-  background-color: #efe1ba;
-}
-#software-service .my-btn:hover {
-  background-color: #0b163f;
-  color: #fff;
-}
-.icon {
-  background-color: #fe4c1c;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  color: #fff;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-}
+ 
 /* ===================================== */
 /* ==========services-section============== */
 /* ===================================== */
 #services-section {
   padding: 60px 0;
+  background-color: #efe1ba;
 }
 .single-service {
   background-color: #f9f9f9;
@@ -220,7 +205,7 @@ header .my-navbar {
 /* ========our-software========== */
 #our-software {
   padding: 60px 0;
-  background-color: #efe1ba;
+  background-color: #ddd;
 }
 
 .single-ready-software {
@@ -264,6 +249,7 @@ header .my-navbar {
 /* ===========Contact section======= */
 #contact-section {
   padding: 60px 0;
+  background-color: #efe1ba;
 }
 .contact-img img {
   width: 80%;
@@ -316,3 +302,12 @@ header .my-navbar {
 .copytight {
   background-color: #051f3b;
 }
+
+/* ================================== */ 
+.dropdown-menu{
+  padding: 10px 0!important;
+}
+.dropdown-menu li:hover {
+  background-color: #0B163F!important;
+}
+/* ========================================= */

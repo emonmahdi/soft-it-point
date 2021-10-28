@@ -16,15 +16,15 @@
 <body>
    <header id="header"> 
        <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light my-navbar" id="myNavbar"> 
+       <nav class="navbar navbar-expand-lg navbar-light my-navbar" id="myNavbar">
         <div class="container">
           <a class="navbar-brand logo-text" href="#">Soft IT Point</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon text-light"></span>  -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
             <i class="fas fa-bars navbar-toggler-icon"></i> 
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -34,13 +34,24 @@
                 <li class="nav-item">
                 <a class="nav-link" href="#services-section">Services</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
+                      <li><a class="dropdown-item" href="#">Graphics Design</a></li> 
+                      <li><a class="dropdown-item" href="#">Mobile Apps Development</a></li>
+                    </ul>
+                  </li>  
                 <li class="nav-item">
                 <a class="nav-link" href="#">Software</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#contact-section">Contact</a>
                 </li>
-            </ul> 
+              
+            </ul>
             <div class="order-now ms-3">
                 <a href="order.html" class="btn my-btn">Order Now</a>
             </div>
@@ -127,63 +138,16 @@
                     <div class="about-content">
                         <h5 class="sort-title">ABOUT US </h5> 
                         <h2 class="second-title">Soft IT Point </h2>
+                        <p>Soft IT Point is one of the best Software Company in Barishal Sadar, Barishal, Bangladesh. Dedicated & Innovative team member are highly motivated to help you for running your business smoothly by using our Software & Application. We are specialized in Software Service, Web application, Website development, Android Application, IOS Application, Graphics Design, SEO & Internet Marketing. Don't hesitate to meet our team.</p>
                         <p>At Workspace Infotech, we have always put our client first. This idea permeates our culture to its core. It has driven us to create the innovative products and services we offer today. As a result, we enable our clients to put their people first-helping them build the people-centric environments they need to grow and meet their business goals. </p>
-                        <p>We believe software should work for people. Not the other way around. Customers choose us for our sophisticated people management technology delivered in the cloud. But we know that it's the results-how well we improve the personal work experience for you and your employees-that matter most.</p>
-                        <!-- <ul>
-                            <li><i class="fas fa-ad"></i> Learn new skills with our bite-sized video tutorials, then test your knowledge with a quick quiz.</li>
-                        </ul> --> 
+                        <!-- <p>We believe software should work for people. Not the other way around. Customers choose us for our sophisticated people management technology delivered in the cloud. But we know that it's the results-how well we improve the personal work experience for you and your employees-that matter most.</p> --> 
                         <a href="about-us.html" class="btn my-btn">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
    </section>
-   <!--======================= About section==================== -->
-   <section id="software-service">  
-        <div class="container">
-            <div class="row"> 
-                <div class="col-md-6">
-                    <div class="about-content">
-                        <h5 class="sort-title">Software Service</h5><i class="fas fa-ad"></i>
-                        <h2 class="second-title">Enjoy Full-Service Digital Marketing Expertise </h2>
-                        <p>Soft IT Point is one of the best Software Company in Barishal Sadar, Barishal, Bangladesh. Dedicated & Innovative team member are highly motivated to help you for running your business smoothly by using our Software & Application. We are specialized in Software Service, Web application, Website development, Android Application, IOS Application, Graphics Design, SEO & Internet Marketing. Don't hesitate to meet our team. </p>
-                         <ul class="my-3">
-                             <div class="d-flex justify-content-arround align-items-center my-2">
-                                 <div class="icon me-3">
-                                    <i class="fas fa-fighter-jet"></i>
-                                 </div>
-                                
-                                <li>This is our official Best Software</li>
-                             </div> 
-                             <div class="d-flex justify-content-arround align-items-center my-2">
-                                 <div class="icon me-3">
-                                    <i class="fas fa-fighter-jet"></i>
-                                 </div>
-                                
-                                <li>This is our official Best Software</li>
-                             </div> 
-                             <div class="d-flex justify-content-arround align-items-center my-2">
-                                 <div class="icon me-3">
-                                    <i class="fas fa-fighter-jet"></i>
-                                 </div>
-                                
-                                <li>This is our official Best Software</li>
-                             </div> 
-                         </ul>
-                        <!-- <ul>
-                            <li><i class="fas fa-ad"></i> Learn new skills with our bite-sized video tutorials, then test your knowledge with a quick quiz.</li>
-                        </ul> -->
-                        <a href="software.html" target="_blank" class="btn my-btn">Learn More</a> 
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about-img-service">
-                        <img src="resources/img/inventory.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-   </section>
+    
    <!--======================= services section==================== -->
    <section id="services-section">
        <div class="container">
